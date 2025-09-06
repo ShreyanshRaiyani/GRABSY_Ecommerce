@@ -31,7 +31,7 @@ const PostAd = () => {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Please Login</h2>
-          <p className="text-gray-600 mb-4">You need to be logged in to post an ad</p>
+          <p className="text-gray-600 mb-4">You need to be logged in to post </p>
           <Link
             to="/login"
             className="bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors"
@@ -118,13 +118,13 @@ const PostAd = () => {
             <ArrowLeft className="h-5 w-5" />
           </Link>
           <span className="text-gray-400">/</span>
-          <span className="text-gray-600">Post New Ad</span>
+          <span className="text-gray-600">Post ITEM</span>
         </div>
 
         <div className="bg-white rounded-lg shadow-sm">
           <div className="px-6 py-4 border-b">
-            <h1 className="text-2xl font-bold text-gray-900">POST YOUR AD</h1>
-            <p className="text-gray-600">Fill in the details to post your ad</p>
+            <h1 className="text-2xl font-bold text-gray-900">POST YOUR ITEM</h1>
+            <p className="text-gray-600">Fill in the details to post </p>
           </div>
 
           <form onSubmit={handleSubmit} className="p-6 space-y-6">
@@ -138,7 +138,7 @@ const PostAd = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-1">
-                  Ad Title *
+                  Title *
                 </label>
                 <input
                   type="text"
@@ -318,7 +318,7 @@ const PostAd = () => {
                 className="px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center space-x-2"
               >
                 {loading && <div className="animate-spin h-4 w-4 border-2 border-white border-t-transparent rounded-full"></div>}
-                <span>{loading ? 'Posting...' : 'Post Ad'}</span>
+                <span>{loading ? 'Posting...' : 'Post '}</span>
               </button>
             </div>
           </form>
