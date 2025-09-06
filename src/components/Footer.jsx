@@ -9,7 +9,7 @@ const Footer = () => {
          
           <div>
             <div className="bg-teal-600 text-white px-3 py-2 rounded-lg font-bold text-xl mb-4 inline-block">
-              OLX
+              GRABSY
             </div>
             <p className="text-slate-400 mb-4">
               India's largest marketplace for buying and selling everything from cars and properties to mobiles and furniture.
@@ -42,7 +42,7 @@ const Footer = () => {
 
           {/* About */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">About OLX</h3>
+            <h3 className="text-lg font-semibold mb-4">About GRABSY</h3>
             <ul className="space-y-2">
               <li><Link to="/about" className="text-slate-400 hover:text-white transition-colors">About Us</Link></li>
               <li><Link to="/careers" className="text-slate-400 hover:text-white transition-colors">Careers</Link></li>
