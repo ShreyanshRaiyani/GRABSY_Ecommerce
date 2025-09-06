@@ -41,8 +41,8 @@ const Dashboard = () => {
   };
 
   const stats = [
-    { title: 'Total Ads', value: userProducts.length, icon: Package, color: 'bg-blue-500' },
-    { title: 'Active Ads', value: userProducts.length, icon: Eye, color: 'bg-green-500' },
+    { title: 'Total Item', value: userProducts.length, icon: Package, color: 'bg-blue-500' },
+    { title: 'Active Item', value: userProducts.length, icon: Eye, color: 'bg-green-500' },
     { title: 'Favorites', value: 0, icon: Heart, color: 'bg-red-500' },
     { title: 'Views', value: '1.2K', icon: Eye, color: 'bg-purple-500' }
   ];
